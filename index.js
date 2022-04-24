@@ -50,7 +50,7 @@ const questions = [
         type: 'input',
         name: 'what',
         message: 'What is your project and what problem does it solve? (Required)',
-        validate: githubInput => {
+        validate: whatInput => {
             if (whatInput) {
                 return true;
             } else {
@@ -60,7 +60,46 @@ const questions = [
     },    
     {
         type: 'input',
-        name: 'installation',
+        name: 'why',
+        message: 'Why did you create this project? (Required)',
+        validate: whyInput => {
+            if (whyInput) {
+                return true;
+            } else {
+                console.log('Please enter why you created this project');
+                return false;
+            }
+        }
+    },
+    {
+        type: 'input',
+        name:'how',
+        message: 'How will someone use this? (Required)',
+        validate: howInput => {
+            if (howInput) {
+                return true;
+            } else {
+                console.log('Please enter what your projet is');
+                return false;
+            }
+        }
+    },
+    {
+        type: 'input',
+        name: 'Installation',
+        message: 'Provide step by step install instructions for your project (Required)',
+        validate: installInput => {
+            if (installInput) {
+                return true;
+            } else {
+                console.log('Please type in your install instructions');
+                return false;
+            }
+        }
+    },
+    {
+        type: 'input',
+        name: 'usage',
         message: 'Please provide instructions and examples for use. (Required)',
         validate: usageInput => {
             if (usageInput) {
@@ -151,11 +190,12 @@ init()
     return generateMarkdown(readmeData);
 })
 .then(pageMD => {
-    return fs.writeFile(pageMD);
-})
-.then(writeFileResponse => {
-    console.log(writeFileResponse.message);
+    return writeToFile(pageMD);
+})  
+.then(writeToFileResponse => {
+    console.log(writeToFileResponse.message);
 })
 .catch(err => {
     console.log(err);
 })
+   
