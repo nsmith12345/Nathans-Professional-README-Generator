@@ -1,7 +1,7 @@
 function renderContributingSection(_confirmContributers, data) {
   if (!_confirmContributers) {
     return `
-    Thank you for wanting to help out; I will not be accepting contributions from anyone`;
+    Thank you, I will not be accepting contributions from anyone`;
   } else {
     return `
     ${data}`;
@@ -90,10 +90,8 @@ function generateMarkdown(data) {
   Contact me using the following links:
   [Github](https://github.com/${data.githubUsername})
 
-  [email: ${data.email}](emailto:${data.email})
+  [email:${data.email}](emailto:${data.email})
 `;
 }
-
-
 
 module.exports = generateMarkdown;

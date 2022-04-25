@@ -1,4 +1,4 @@
-# fdsf
+# Professional README Generator
 
   
   ![badge](https://img.shields.io/badge/license-MIT-blue)
@@ -14,13 +14,13 @@
   *[Questions](#questions)
 
   ## [Description](#table-of-contents)
-  sdfsd
-  sfds
-  sdfsd
+  It will produce a professional README
+  To save time in the future
+  clone the repository and run the file using node index.js command
   ## [InstallationInstructions](#table-of-contents)
-  sdfds
+  clone the repository, double check files and that npm init has been utilized with package.json. Type node index.js and answer the questions. Then   type ctrl, shift and V to launch the completed README 
   ## [Usage](#table-of-contents)
-  sdfds
+  You can utilize it for any project you create
   
   
     ## [License](#table-of-contents)
@@ -28,16 +28,15 @@
     Utilizes the following license:
 
     
-    [MIT](https://choosealicense.com/licenses/MIT)
+    [MIT](https://choosealicense.com/licenses/})
   ## [Contributing](#table-of-contents)
 
   
-    Thank you for wanting to help out; I will not be accepting contributions from anyone
+    Thank you, I will not be accepting contributions from anyone
   ## [Tests](#table-of-contents)
-  fdsfs
+  type node index.js 
   ## [Questions](#table-of-contents)
   Contact me using the following links:
   [Github](https://github.com/undefined)
 
-  [email: dfs](emailto:dfs)
-    
+  [email:nsmith_2003@hotmail.com](emailto:nsmith_2003@hotmail.com)

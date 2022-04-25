@@ -1,10 +1,10 @@
-// TODO: Include packages needed for this application
+// Include packages needed for this application
 const fs = require('fs');
 const path = require('path');
 const inquirer = require('inquirer');
 const generateMarkdown = require('./utils/generateMarkdown');
 
-// TODO: Create an array of questions for user input
+// Create an array of questions for user input
 const questions = [
     {
         type: 'input',
@@ -156,7 +156,7 @@ const questions = [
     }
 ];
 
-// TODO: Create a function to write README file
+// Create a function to write README file
 const writeToFile = fileName => {
     return new Promise((resolve, reject) => {
         fs.writeFile('./nathans-professional-README-generator.md', fileName, err => {
@@ -172,7 +172,7 @@ const writeToFile = fileName => {
     });
 }; 
 
-// TODO: Create a function to initialize app
+// Create a function to initialize app
 const init = () => {
 
     return inquirer.prompt(questions)
