@@ -1,26 +1,26 @@
-# dfdafs
+# fdsf
 
   
-  ![badge](![APM](https://img.shields.io/apm/l/vim-mode?color=blue))
+  ![badge](https://img.shields.io/badge/license-MIT-blue)
   ## Table-of-Contents
 
   *[Description](#description)
-  *[Installation-instructions](#installation-intructions)
+  *[InstallationInstructions](#installationIntructions)
   *[Usage](#usage)
   
     * [License]('#license') {
-  *[COntributing](#contributing)
+  *[Contributing](#contributing)
   *[Tests](#tests)
   *[Questions](#questions)
 
   ## [Description](#table-of-contents)
-  dfadsf
-  dfasdf
+  sdfsd
   sfds
-  ## [Installation](#table-of-contents)
-  undefined
+  sdfsd
+  ## [InstallationInstructions](#table-of-contents)
+  sdfds
   ## [Usage](#table-of-contents)
-  fdsfd
+  sdfds
   
   
     ## [License](#table-of-contents)
@@ -28,16 +28,16 @@
     Utilizes the following license:
 
     
-    [MIT](https://choosealicense.com/licenses/$){license})
+    [MIT](https://choosealicense.com/licenses/MIT)
   ## [Contributing](#table-of-contents)
 
   
     Thank you for wanting to help out; I will not be accepting contributions from anyone
   ## [Tests](#table-of-contents)
-  fdsf
+  fdsfs
   ## [Questions](#table-of-contents)
   Contact me using the following links:
   [Github](https://github.com/undefined)
 
-  [email: dadsf](emailto:dadsf)
+  [email: dfs](emailto:dfs)
     

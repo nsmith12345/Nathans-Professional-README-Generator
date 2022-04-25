@@ -4,7 +4,6 @@ const path = require('path');
 const inquirer = require('inquirer');
 const generateMarkdown = require('./utils/generateMarkdown');
 
-
 // TODO: Create an array of questions for user input
 const questions = [
     {
@@ -86,7 +85,7 @@ const questions = [
     },
     {
         type: 'input',
-        name: 'Installation',
+        name: 'installationInstructions',
         message: 'Provide step by step install instructions for your project (Required)',
         validate: installInput => {
             if (installInput) {

@@ -13,7 +13,7 @@ function renderContributingSection(_confirmContributers, data) {
 function renderLicenseBadge(license) {
   if (license !== 'no license') {
     return `
-  ![badge](![APM](https://img.shields.io/apm/l/vim-mode?color=blue))`;
+    ![badge](https://img.shields.io/badge/license-MIT-blue)`;
   } else {
     return '';
   }
@@ -24,7 +24,7 @@ function renderLicenseBadge(license) {
 function renderLicenseLink(license) {
   if (license !== 'no license') {
     return `
-    [${license}](https://choosealicense.com/licenses/$){license})`;
+    [${license}](https://choosealicense.com/licenses/})`;
   } else {
     return '';
   }
@@ -64,10 +64,10 @@ function generateMarkdown(data) {
   ## Table-of-Contents
 
   *[Description](#description)
-  *[Installation-instructions](#installation-intructions)
+  *[InstallationInstructions](#installationIntructions)
   *[Usage](#usage)
   ${renderLicenseTOC(data.license)}
-  *[COntributing](#contributing)
+  *[Contributing](#contributing)
   *[Tests](#tests)
   *[Questions](#questions)
 
@@ -75,8 +75,8 @@ function generateMarkdown(data) {
   ${data.what}
   ${data.why}
   ${data.how}
-  ## [Installation](#table-of-contents)
-  ${data.installation}
+  ## [InstallationInstructions](#table-of-contents)
+  ${data.installationInstructions}
   ## [Usage](#table-of-contents)
   ${data.usage}
   
@@ -91,8 +91,9 @@ function generateMarkdown(data) {
   [Github](https://github.com/${data.githubUsername})
 
   [email: ${data.email}](emailto:${data.email})
-    
 `;
 }
+
+
 
 module.exports = generateMarkdown;
