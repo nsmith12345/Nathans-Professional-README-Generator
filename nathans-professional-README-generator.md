@@ -14,13 +14,13 @@
   *[Questions](#questions)
 
   ## [Description](#table-of-contents)
-  It will produce a professional README
-  To save time in the future
-  clone the repository and run the file using node index.js command
+  The project will produce a professional README in a short period of time.
+  To save time on future projects
+  This will save time on their future projects
   ## [InstallationInstructions](#table-of-contents)
-  clone the repository, double check files and that npm init has been utilized with package.json. Type node index.js and answer the questions. Then   type ctrl, shift and V to launch the completed README 
+  clone the repository and double check the files and that nm init has been utilized with the package.json. Type node index.js and answer the questions as they come up. Then type ctrl shift and V to launch the completed README
   ## [Usage](#table-of-contents)
-  You can utilize it for any project you create
+  You can utilize for any project
   
   
     ## [License](#table-of-contents)
@@ -34,7 +34,7 @@
   
     Thank you, I will not be accepting contributions from anyone
   ## [Tests](#table-of-contents)
-  type node index.js 
+  follow the directions above
   ## [Questions](#table-of-contents)
   Contact me using the following links:
   [Github](https://github.com/undefined)

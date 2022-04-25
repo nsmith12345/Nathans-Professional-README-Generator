@@ -1,5 +1,9 @@
 # Nathans-Professional-README-Generator
 
+Link to walkthrough talk through video
+https://drive.google.com/file/d/1BAqkVgWEgaT3DsUEhYqV4KoMzOJw_Z2s/view
+
+
 ![#Nathans Professional README Generator](./utils/Images/Professional%20README%20Generator.jpeg)
 # Professional README Generator
 
